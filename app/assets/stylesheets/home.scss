@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0;
 }
-.main {
+.home-main {
   height: 100vh;
   width: 100vw;
+  background-image: url(portfolio.jpg);  
 }
 .header {
   height: 730px;
-  background-image: url(portfolio.jpg);  
 }
 .home-portfolio {
   height: 100%;
@@ -30,6 +30,7 @@
 .footer {
   height: calc(100vh - 730px);
   background-color: #FFEFD5;
+  position: fixed;
 }
 .footer-list li {
   list-style: none;
@@ -41,7 +42,7 @@
   line-height: calc(100vh - 730px);
   margin-left: 200px;
 }
-.application {
+.application-text {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
   position: relative;
@@ -58,4 +59,213 @@
   font-weight: bold;
   position: relative;
   left: 750px;
+}
+
+
+.application {
+  height: 100vh;
+  width: 100vw;
+  background-color: #CC0000;
+}
+.application-main {
+  height: 730px;
+}
+.circle {
+  height: 150px;
+  width: 100vw;
+  // background-color: pink;
+  text-align: center;
+}
+.a-circle {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  margin-top: 10px;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.a-font {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.p-circle {
+  height: 110px;
+  width: 110px;
+  background-color: #FFABCE;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #FFABCE);
+}
+.p-font {
+  line-height: 110px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.p-circle2 {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.p-font2 {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.l-circle {
+  height: 110px;
+  width: 110px;
+  background-color: #FFABCE;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #FFABCE);
+}
+.l-font {
+  line-height: 110px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.i-circle {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.i-font {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.c-circle {
+  height: 110px;
+  width: 110px;
+  background-color: #FFABCE;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #FFABCE);
+}
+.c-font {
+  line-height: 110px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.a-circle2 {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.a-font2 {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.t-circle {
+  height: 110px;
+  width: 110px;
+  background-color: #FFABCE;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #FFABCE);
+}
+.t-font {
+  line-height: 110px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.i-circle2 {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.i-font2 {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.o-circle {
+  height: 110px;
+  width: 110px;
+  background-color: #FFABCE;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #FFABCE);
+}
+.o-font {
+  line-height: 110px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.n-circle {
+  height: 130px;
+  width: 130px;
+  background-color: #86F9C5;
+  border-radius: 50%;
+  display:  inline-block;
+  filter: drop-shadow(0 0 10px #86F9C5);
+}
+.n-font {
+  line-height: 130px;
+  font-weight: bold;
+  // font-size: 50px;
+}
+.app-description {
+  color: white;
+  font-weight: bold;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.app-description-text {
+  color: white;
+  font-weight: bold;
+  margin-left: 150px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.app-description-text2 {
+  color: white;
+  font-weight: bold;
+  margin-left: 150px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.ingenuity {
+  color: white;
+  font-weight: bold;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.ingenuity-text {
+  color: white;
+  font-weight: bold;
+  margin-left: 150px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.struggle {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.struggle-text {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 150px;
 }
