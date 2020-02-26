@@ -48,18 +48,19 @@
   position: relative;
   left: 250px;
 }
-.team-development {
+.team-development-text {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
   position: relative;
   left: 500px;
 }
-.profile {
+.profile-text {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
   position: relative;
   left: 750px;
 }
+
 
 
 .application {
@@ -268,4 +269,162 @@
   font-size: 20px;
   margin-top: 10px;
   margin-left: 150px;
+}
+
+
+
+.team-development {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.team-development-main {
+  height: 730px;
+}
+.triangle {
+  border-top: 50px solid;
+  border-bottom: 50px solid;
+  border-left: 500px solid #0000BB;
+  margin-left: 100px;
+  position: relative;
+  top: 30px;
+}
+.team-development-font {
+  color: white;
+  position: relative;
+  bottom: 65px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+.mercari {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.mercari-ingenuity {
+  color: white;
+  margin-left: 20px;
+  font-size: 22px;
+  margin-top: 30px;
+  border: 2px solid white;
+  display:  inline-block;
+  padding: 5px;
+}
+.mercari-ingenuity-text {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.mercari-struggle {
+  color: white;
+  margin-left: 20px;
+  font-size: 22px;
+  margin-top: 30px;
+  border: 2px solid white;
+  display:  inline-block;
+  padding: 5px;
+}
+.mercari-struggle-text {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.content {
+  height: 680px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+  bottom: 790px;
+  margin-left: 900px;
+}
+.content-font {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.id-pass {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.test-account {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.buyer {
+  margin-left: 10px;
+  border: 1px solid black;
+  display:  inline-block;
+  padding: 0 5px;
+}
+.buyer-mail {
+  margin-left: 10px;
+}
+.password {
+  margin-left: 10px;
+}
+.number {
+  margin-left: 10px;
+}
+.deadline {
+  margin-left: 10px;
+}
+.user-name {
+  margin-left: 10px;
+}
+.code {
+  margin-left: 10px;
+}
+.seller {
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 1px solid black;
+  display:  inline-block;
+  padding: 0 5px;
+}
+.seller-mail {
+  margin-left: 10px;
+}
+.seller-password {
+  margin-left: 10px;
+}
+.charge {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.signin {
+  margin-left: 10px;
+}
+.saignin-url {
+  margin-left: 10px;
+}
+.signout {
+  margin-left: 10px;
+}
+.signout-url {
+  margin-left: 10px;
+}
+.sidebar {
+  margin-left: 10px;
+}
+.sidebar-url {
+  margin-left: 10px;
+}
+.note {
+  margin-left: 10px;
+}
+.period {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.agile {
+  margin-left: 10px;
+}
+.trello {
+  margin-left: 10px;
 }
