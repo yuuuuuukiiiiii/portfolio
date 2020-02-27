@@ -1,3 +1,4 @@
+#home
 .home-main 
   .header
     .home-portfolio
@@ -6,14 +7,15 @@
   .footer
     .footer-list
       %ul
-        %li.home 
-          Home 
+        %li.home
+          %a{href: "#home", class: "home2"} Home 
         %li.application-text
-          Application
+          %a{href: "#application-text", class: "application-text2"} Application
         %li.team-development-text
-          Team development
+          %a{href: "#team-development-text", class: "team-development-text2"} Team development
         %li.profile-text
-          Profile
+          %a{href: "#profile-text", class: "profile-text2"} Profile
+#application-text
 .application
   .application-main
     .circle
@@ -71,6 +73,7 @@
         他の機能を実装している時に、どのツイートの返信に対しても同じ返信がされていたことに気づいたので、
         %br
           気をつけないといけないと思いました。
+#team-development-text
 .team-development
   .team-development-main
     .triangle
@@ -151,12 +154,37 @@
         アジャイル型開発（スクラム）
       .trello
         Trelloによるタスク管理
-
-
-
-
-
-
-
-
-
+#profile-text
+.profile 
+  .profile-main
+    .profile-font
+      Profile
+    .name
+      名前：西本 有希
+    .birthday
+      生年月日：1993年4月9日
+    .hobby
+      趣味：ベースを弾くこと、バンド活動
+    .language-box
+      .language
+        言語
+      .language-skill
+        %ul
+        %li.language-html
+          HTML（haml）
+          %li.language-html-css
+            CSS（scss）
+            %li.language-html-ruby
+              Ruby
+              %li.language-html-javascript
+                JavaScript（jQuery）
+    .skill
+      .framework
+        フレームワーク：Ruby on Rails
+      .database
+        データベース：MySQL
+      .tool
+        ツール：Github
+        %a{href: "https://github.com/yuuuuuukiiiiii", class: "account"} （アカウント：yuuuuuukiiiiii）
+      .os
+        OS：mac
