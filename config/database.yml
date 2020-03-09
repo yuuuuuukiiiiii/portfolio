@@ -54,6 +54,6 @@ test:
 #   password: <%= ENV['PORTFOLIO_DATABASE_PASSWORD'] %>
 production:
   <<: *default
-  adapter: mysql2
+  adapter: postgresql
   encoding: unicode
   pool: 5
